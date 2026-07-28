@@ -1319,4 +1319,128 @@ operational stress. Experimental validation is recommended before scaling from
     <li><strong>Validation:</strong> Experimentally validate ML predictions at 25 cm² pilot scale</li>
 </ol>
 
-<p><strong>Final Conclusion:</strong> The ML-guided scale-up framework successfully bridges the gap between laboratory discovery (5 cm²) and pilot-scale validation (25 cm²), enabling data-driven optimization of CH₄ electrochemical conversion for sustainable methanol and ethanol production.</p>
+<h2>Key Results 📊</h2>
+
+<h3>✅ Data Engineering & Experimental Data Intelligence</h3>
+<ul>
+    <li>Standardized <strong>47+ experimental parameters</strong> from fragmented Excel, CSV, and laboratory files.</li>
+    <li>Removed <strong>127 duplicate experiments</strong> and reduced missing data from <strong>~15% to &lt;1%</strong>.</li>
+    <li>Converted <strong>12 unit systems into 3 standardized engineering units</strong>.</li>
+    <li>Developed an automated ETL workflow using <strong>Python, Pandas, and SQLAlchemy</strong>.</li>
+    <li>Built a centralized <strong>MySQL experimental database</strong> for catalyst, membrane, operating conditions, electrochemical results, and product analysis.</li>
+</ul>
+
+<p><strong>Result:</strong> A clean, standardized, and query-ready database enabling data-driven electrochemical analysis.</p>
+
+
+<h3>✅ Statistical Analysis & Engineering Insights</h3>
+<ul>
+    <li>Performed correlation analysis, ANOVA, hypothesis testing, and OLS regression to identify key performance drivers.</li>
+    <li>Found that increasing cathode loading by <strong>1 mg/cm² reduced methanol yield by ~0.12 µmol/mL</strong>.</li>
+    <li>OLS regression explained <strong>9.6% of yield variation (R² = 0.096)</strong>, showing stronger influence from catalyst composition and operating conditions.</li>
+    <li>Residual analysis confirmed no major autocorrelation or multicollinearity issues.</li>
+</ul>
+
+<p><strong>Result:</strong> Identified critical engineering factors controlling catalyst performance.</p>
+
+
+<h3>✅ Machine Learning Performance Prediction</h3>
+<ul>
+    <li>Developed ML models for CH₄ electrochemical conversion performance prediction.</li>
+    <li><strong>Methanol Yield:</strong> Gradient Boosting achieved <strong>R² = 0.9139</strong>.</li>
+    <li><strong>Ethanol Yield:</strong> Gradient Boosting achieved <strong>R² = 0.9066</strong>.</li>
+    <li>Evaluated Random Forest, XGBoost, SVR, ANN, and ensemble models.</li>
+    <li>Applied feature importance and SHAP analysis to identify dominant process variables.</li>
+</ul>
+
+<p><strong>Result:</strong> Reduced experimental trial-and-error through accurate ML-based prediction.</p>
+
+
+<h3>✅ Catalyst Selection & Process Optimization</h3>
+<ul>
+    <li>Identified optimal CH₄ electrolysis conditions:</li>
+    <ul>
+        <li><strong>Catalyst:</strong> Pt-Co</li>
+        <li><strong>Current Density:</strong> 40–60 mA/cm²</li>
+        <li><strong>Voltage:</strong> 1.5 V</li>
+        <li><strong>Temperature:</strong> 60°C</li>
+        <li><strong>Reaction Time:</strong> ~6 hours</li>
+    </ul>
+    <li>Feature analysis identified catalyst type, voltage, current density, and reaction time as key performance drivers.</li>
+</ul>
+
+<p><strong>Result:</strong> Enabled data-driven catalyst ranking and process optimization.</p>
+
+
+<h3>✅ Electrolyzer Scale-Up Optimization (5 cm² → 25 cm²)</h3>
+<ul>
+    <li>Developed an ML-guided framework for laboratory-to-pilot scale transition.</li>
+    <li>Optimized operating conditions:</li>
+    <ul>
+        <li>Current density: <strong>40 → 55 mA/cm²</strong></li>
+        <li>Voltage: <strong>1.5 → 1.8 V</strong></li>
+        <li>Temperature: <strong>60 → 55°C</strong></li>
+        <li>Reaction time: <strong>6 → 5 hours</strong></li>
+        <li>Pressure: <strong>1 → 2.5 atm</strong></li>
+    </ul>
+</ul>
+
+<p><strong>Predicted Improvements:</strong></p>
+<ul>
+    <li>Methanol yield: <strong>+18.5%</strong></li>
+    <li>Ethanol yield: <strong>+17.6%</strong></li>
+    <li>Methanol selectivity: <strong>+3.6%</strong></li>
+    <li>Energy efficiency: <strong>+2.8%</strong></li>
+</ul>
+
+
+<h3>✅ Predictive Maintenance & Failure Risk Detection</h3>
+<ul>
+    <li>Developed ML classification models for electrolyzer health monitoring.</li>
+    <li>Applied <strong>SMOTE, SMOTEENN, SMOTETomek, and threshold tuning</strong> for rare failure detection.</li>
+    <li>Gradient Boosting achieved:</li>
+    <ul>
+        <li>Accuracy: <strong>86.4%</strong></li>
+        <li>Recall: <strong>50%</strong></li>
+        <li>F1-score: <strong>0.31</strong></li>
+    </ul>
+    <li>ROC performance:</li>
+    <ul>
+        <li>Normal operation: <strong>AUC = 0.99</strong></li>
+        <li>Warning condition: <strong>AUC = 0.64</strong></li>
+        <li>Critical failure: <strong>AUC = 0.45</strong></li>
+    </ul>
+</ul>
+
+<p><strong>Result:</strong> Developed an early-warning framework for electrolyzer reliability improvement.</p>
+
+
+<h3>✅ Degradation Optimization Using Bayesian Optimization</h3>
+<ul>
+    <li>Combined Gradient Boosting degradation modeling with Bayesian Optimization.</li>
+    <li>Identified optimal conditions:</li>
+    <ul>
+        <li>Voltage: <strong>1.0 V</strong></li>
+        <li>Current density: <strong>50 mA/cm²</strong></li>
+        <li>Pressure: <strong>20 bar</strong></li>
+        <li>Reaction time: <strong>0.5 h</strong></li>
+        <li>Electrolyte: <strong>1.0 M Na₂CO₃/KOH</strong></li>
+        <li>H₂O₂: <strong>0%</strong></li>
+    </ul>
+</ul>
+
+<p><strong>Result:</strong> Identified operating conditions to minimize degradation and improve long-term stability.</p>
+
+
+<h3>✅ Procurement Intelligence & Price Forecasting</h3>
+<ul>
+    <li>Developed automated material monitoring using <strong>BeautifulSoup web scraping</strong>.</li>
+    <li>Stored historical prices using <strong>SQLite database</strong>.</li>
+    <li>Applied <strong>Prophet time-series forecasting</strong> for price prediction.</li>
+    <li>Created Streamlit dashboards with automated email alerts.</li>
+    <li>Monitored critical materials including lithium carbonate, copper, caustic soda, and soda ash.</li>
+</ul>
+
+<p><strong>Result:</strong> Enabled proactive procurement decisions and reduced supply-chain uncertainty.</p>
+
+
