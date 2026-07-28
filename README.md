@@ -368,7 +368,7 @@
 <p><strong>Note:</strong> The complete Python implementation, detailed explanations, and preprocessing workflow are available in the <strong>README – 2.Data Cleaning,ETL,  Preprosseing, EDA & Statistical Analysis</strong> section of this repository.</p>
 
 <p align="center">
-    <img src="assest/3.png" width="900" alt="EDA Analysis">
+    <img src="assest/3.png" width="800" alt="EDA Analysis">
 </p>
  <hr>
 
@@ -465,7 +465,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assest/9.png" width="500" alt="EDA Analysis">
+    <img src="assest/9.png" width="800" alt="EDA Analysis">
 </p>
 
 <p><strong>Key Finding:</strong> Pt-Co alloy catalysts showed <strong>34% higher methanol yield</strong> than pure Pt catalysts.</p>
@@ -473,7 +473,7 @@ df.head()
 <h3>Yield Efficiency by Catalyst</h3>
 
 <p align="center">
-    <img src="assest/v2.png" width="900" alt="Yield Efficiency Results">
+    <img src="assest/v2.png" width="800" alt="Yield Efficiency Results">
 </p>
 
 <p><strong>Key Finding:</strong> Pt-Co achieved <strong>25.4 µmol/mL/hr</strong> — the highest efficiency among tested catalysts.</p>
@@ -484,7 +484,7 @@ df.head()
 <p><strong>Key Finding:</strong> MX@NG achieved the highest methanol yield (~16 &micro;mol/mL), followed by Pt&ndash;Ni/TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub>, Pt&ndash;Co/TiO<sub>2</sub>, and Pt&ndash;Co/TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub>.</p>
 
 <p align="center">
-    <img src="assest/v1.png" width="900" alt="Bayesian Optimization">
+    <img src="assest/v1.png" width="700" alt="Bayesian Optimization">
 </p>
 
 <p><strong>Optimization Progress:</strong> Achieved optimal performance after 45 iterations, identifying Pt-Co at 250 mA/cm², 3.2V, 60°C as the optimal condition.</p>
@@ -499,7 +499,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assest/7.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/7.png" width="800" alt="Statistical Target (Methanol)">
 </p>
 
 
@@ -521,7 +521,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assest/ss2.png" width="900" alt="Statistical Analysis">
+    <img src="assest/ss2.png" width="800" alt="Statistical Analysis">
 </p>
 
 
@@ -540,13 +540,13 @@ df.head()
   <strong>Conclusion:</strong> Cathode loading is a significant but limited predictor; optimal catalyst performance requires considering multiple interacting parameters.</div>
 
 <p align="center">
-    <img src="assest/ss3.png" width="900" alt="Statistical Analysis">
+    <img src="assest/ss3.png" width="800" alt="Statistical Analysis">
 </p>
 
 <p><strong>Statistical Summary:</strong> Methanol yield averaged <strong>3.94 mL</strong> (SD = <strong>4.81 mL</strong>, CV = <strong>122.13%</strong>), indicating high variability across experimental conditions.</p>
 
 <p align="center">
-    <img src="assest/s1.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/ss1.png" width="800" alt="Statistical Target (Methanol)">
 </p>
 
 <p><strong>Note:</strong> Complete statistical analysis, visualizations, and detailed explanations are available in the <strong>README – 2. Data Cleaning, ETL, Preprocessing, Feature Engineering, EDA & Statistical Analysis</strong> section.</p>
@@ -565,7 +565,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assest/8.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/8.png" width="800" alt="Statistical Target (Methanol)">
 </p>
 
 <h3>Column Transformation Using ColumnTransformer</h3>
