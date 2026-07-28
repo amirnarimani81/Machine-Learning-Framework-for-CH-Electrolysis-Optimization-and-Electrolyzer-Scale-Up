@@ -1319,9 +1319,9 @@ operational stress. Experimental validation is recommended before scaling from
     <li><strong>Validation:</strong> Experimentally validate ML predictions at 25 cm² pilot scale</li>
 </ol>
 
-<h2>Key Results 📊</h2>
+<h2>Key Results </h2>
 
-<h3>✅ Data Engineering & Experimental Data Intelligence</h3>
+<h3> Data Engineering & Experimental Data Intelligence</h3>
 <ul>
     <li>Standardized <strong>47+ experimental parameters</strong> from fragmented Excel, CSV, and laboratory files.</li>
     <li>Removed <strong>127 duplicate experiments</strong> and reduced missing data from <strong>~15% to &lt;1%</strong>.</li>
@@ -1333,7 +1333,7 @@ operational stress. Experimental validation is recommended before scaling from
 <p><strong>Result:</strong> A clean, standardized, and query-ready database enabling data-driven electrochemical analysis.</p>
 
 
-<h3>✅ Statistical Analysis & Engineering Insights</h3>
+<h3> Statistical Analysis & Engineering Insights</h3>
 <ul>
     <li>Performed correlation analysis, ANOVA, hypothesis testing, and OLS regression to identify key performance drivers.</li>
     <li>Found that increasing cathode loading by <strong>1 mg/cm² reduced methanol yield by ~0.12 µmol/mL</strong>.</li>
@@ -1344,7 +1344,7 @@ operational stress. Experimental validation is recommended before scaling from
 <p><strong>Result:</strong> Identified critical engineering factors controlling catalyst performance.</p>
 
 
-<h3>✅ Machine Learning Performance Prediction</h3>
+<h3> Machine Learning Performance Prediction</h3>
 <ul>
     <li>Developed ML models for CH₄ electrochemical conversion performance prediction.</li>
     <li><strong>Methanol Yield:</strong> Gradient Boosting achieved <strong>R² = 0.9139</strong>.</li>
@@ -1356,7 +1356,7 @@ operational stress. Experimental validation is recommended before scaling from
 <p><strong>Result:</strong> Reduced experimental trial-and-error through accurate ML-based prediction.</p>
 
 
-<h3>✅ Catalyst Selection & Process Optimization</h3>
+<h3> Catalyst Selection & Process Optimization</h3>
 <ul>
     <li>Identified optimal CH₄ electrolysis conditions:</li>
     <ul>
@@ -1372,7 +1372,7 @@ operational stress. Experimental validation is recommended before scaling from
 <p><strong>Result:</strong> Enabled data-driven catalyst ranking and process optimization.</p>
 
 
-<h3>✅ Electrolyzer Scale-Up Optimization (5 cm² → 25 cm²)</h3>
+<h3> Electrolyzer Scale-Up Optimization (5 cm² → 25 cm²)</h3>
 <ul>
     <li>Developed an ML-guided framework for laboratory-to-pilot scale transition.</li>
     <li>Optimized operating conditions:</li>
@@ -1394,7 +1394,7 @@ operational stress. Experimental validation is recommended before scaling from
 </ul>
 
 
-<h3>✅ Predictive Maintenance & Failure Risk Detection</h3>
+<h3> Predictive Maintenance & Failure Risk Detection</h3>
 <ul>
     <li>Developed ML classification models for electrolyzer health monitoring.</li>
     <li>Applied <strong>SMOTE, SMOTEENN, SMOTETomek, and threshold tuning</strong> for rare failure detection.</li>
@@ -1415,7 +1415,7 @@ operational stress. Experimental validation is recommended before scaling from
 <p><strong>Result:</strong> Developed an early-warning framework for electrolyzer reliability improvement.</p>
 
 
-<h3>✅ Degradation Optimization Using Bayesian Optimization</h3>
+<h3> Degradation Optimization Using Bayesian Optimization</h3>
 <ul>
     <li>Combined Gradient Boosting degradation modeling with Bayesian Optimization.</li>
     <li>Identified optimal conditions:</li>
