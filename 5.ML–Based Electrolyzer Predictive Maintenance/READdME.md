@@ -714,7 +714,7 @@ prediction during electrolyzer scale-up.
 
 
 <p align="center">
-<img src="Plot/13.png" width="900" >
+<img src="Plot/13.webp" width="900" >
 </p>
 <hr>
 
