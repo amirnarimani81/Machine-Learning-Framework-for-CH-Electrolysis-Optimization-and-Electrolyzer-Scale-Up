@@ -3,11 +3,17 @@
 <h1> Automated Web Scraping Pipeline for Electrolyzer Material Price Monitoring and Database Management</h1>
 <h2>From Raw Market Data to Predictive Supply Chain Decisions</h2>
 
-<<p align="center">
-    <strong>🎥 Project Demonstration</strong><br><br>
-    <a href="https://youtu.be/i90PSh_6ALE" target="_blank" style="font-size:16px; font-weight:bold; text-decoration:none;">
-        ▶ Watch the Full End-to-End Platform Demonstration
-    </a>
+<p align="center">
+<a href="https://youtu.be/i90PSh_6ALE" target="_blank">
+<img src="https://img.youtube.com/vi/i90PSh_6ALE/maxresdefault.jpg" width="900">
+</a>
+</p>
+
+
+<p align="center">
+  <a href="https://youtu.be/i90PSh_6ALE" target="_blank">
+    <img src="assets/demo_thumbnail.png" width="900" alt="Project Demo">
+  </a>
 </p>
 
 <hr>
