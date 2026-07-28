@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Engineering Pipeline for Electrolyzer Scale-Up</title>
-</head>
-<body>
 
 <h1>Data Engineering Pipeline for Electrolyzer Scale-Up: From Experimental Files to MySQL Database Intelligence</h1>
 
 <p align="center">
-    <img src="assets/s1.png" width="900" alt="ETL Pipeline Architecture">
+    <img src="assest/s1.png" width="900" alt="ETL Pipeline Architecture">
 </p>
 
 <hr>
@@ -599,7 +591,7 @@ df.head()
 </pre>
 
 <p align="center">
-    <img src="assets/S3.png" width="900" alt="Average Yield Results">
+    <img src="assest/S3.png" width="900" alt="Average Yield Results">
 </p>
 
 <hr>
@@ -626,7 +618,7 @@ df.head()
 </pre>
 
 <p align="center">
-    <img src="assets/S2.png" width="900" alt="Efficiency Results">
+    <img src="assest/S2.png" width="900" alt="Efficiency Results">
 </p>
 
 <hr>
