@@ -465,7 +465,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assest/9.png" width="900" alt="EDA Analysis">
+    <img src="3.ML Models  to Optimize Catalyst/images/2.png" width="900" alt="EDA Analysis">
 </p>
 
 <p><strong>Key Finding:</strong> Pt-Co alloy catalysts showed <strong>34% higher methanol yield</strong> than pure Pt catalysts.</p>
