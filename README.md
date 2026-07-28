@@ -174,7 +174,7 @@
 
 <p>We built an end-to-end <strong>Data Engineering, Machine Learning, and Decision Intelligence platform</strong> that transforms fragmented experimental data into actionable engineering insights.</p>
 
-<h4>What We Built:</h4>
+<h4>What I Built:</h4>
 
 <ol>
     <li><strong> Data Engineering Foundation</strong>
@@ -186,27 +186,36 @@
     </li>
     <li><strong> DataBase Analytics & Insights</strong>
         <ul>
-            <li>Creating the relational database (MySQL)</li>
+            <li>Creating the relational database (MySQL) to gather all Experimental Data </li>
             <li>Using SQLAlchemy for connecting dataset with new data (excell, CSV etc)</li>
             <li>SQL-based performance analytics</li>
             <li>Exploratory Data Analysis (EDA)</li>
             <li>Statistical analysis (ANOVA, Correlation, Hypothesis Testing)</li>
         </ul>
     </li>
-    <li><strong> Machine Learning</strong>
-        <ul>
-            <li>Performance prediction models (R² &gt; 0.91)</li>
-            <li>Catalyst optimization using Bayesian Optimization</li>
-            <li>Feature importance & SHAP analysis</li>
-        </ul>
-    </li>
-    <li><strong> Operational Intelligence</strong>
-        <ul>
-            <li>Predictive maintenance & failure risk classification</li>
-            <li>Remaining Useful Life (RUL) estimation</li>
-            <li>Degradation monitoring & tracking</li>
-        </ul>
-    </li>
+    <li><strong> Machine Learning for Catalyst Design & Production Prediction</strong>
+    <ul>
+        <li>Predict methanol and ethanol production using ML models (R² > 0.91)</li>
+        <li>Catalyst performance ranking and selection</li>
+        <li>Feature importance analysis and SHAP interpretation</li>
+    </ul>
+</li>
+
+<li><strong> Machine Learning for Electrolyzer Process Optimization & Scale-Up</strong>
+    <ul>
+        <li>Bayesian optimization of operating conditions</li>
+        <li>Optimization of voltage, current density, temperature, and reaction time</li>
+        <li>Design-space exploration for scaling from 5 cm² to 25 cm² electrolyzers</li>
+    </ul>
+</li>
+
+<li><strong> Machine Learning for Predictive Maintenance & Failure Risk</strong>
+    <ul>
+        <li>Failure risk classification (Normal / Warning / Critical)</li>
+        <li>Predictive maintenance and degradation monitoring</li>
+        <li>Remaining Useful Life (RUL) estimation and early fault detection</li>
+    </ul>
+</li>
     <li><strong> Procurement Intelligence</strong>
         <ul>
             <li>Automated web scraping of material prices</li>
