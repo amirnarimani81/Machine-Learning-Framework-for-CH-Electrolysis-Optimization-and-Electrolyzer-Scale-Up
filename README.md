@@ -1,10 +1,9 @@
 
-
 <h1 align="center">Machine Learning-Driven Optimization of Methane Electrolysis</h1>
 <h2 align="center">Scaling Electrochemical Conversion from 5 cm² to 25 cm² for Sustainable Methanol and Ethanol Production</h2>
 
 <p align="center">
-    <img src="assets/1.png" width="900" alt="Project Architecture Overview">
+    <img src="assest/1.png" width="900" alt="Project Architecture Overview">
 </p>
 
 
