@@ -465,7 +465,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="3.ML Models  to Optimize Catalyst/images/2.png" width="900" alt="EDA Analysis">
+    <img src="assest/9.png" width="500" alt="EDA Analysis">
 </p>
 
 <p><strong>Key Finding:</strong> Pt-Co alloy catalysts showed <strong>34% higher methanol yield</strong> than pure Pt catalysts.</p>
@@ -684,13 +684,13 @@ https://www.sciencedirect.com/science/article/abs/pii/S0013468626005700
 </table>
 
 <p align="center">
-    <img src="assest/10.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/10.png" width= "600" alt="Statistical Target (Methanol)">
 </p>
 
 <h3> Feature Importance Analysis</h3>
 
 <p align="center">
-    <img src="assest/11.png" width="900" alt="Feature Importance">
+    <img src="assest/11.png" width="800" alt="Feature Importance">
 </p>
 
 
@@ -702,15 +702,15 @@ https://www.sciencedirect.com/science/article/abs/pii/S0013468626005700
 <p><strong>Interpretation:</strong> An optimized methane supply improves reactant availability and mass transfer, enhancing catalytic conversion efficiency. Excessive flow rates may reduce residence time and limit conversion, whereas insufficient flow can restrict reaction kinetics.</p>
 
 <p align="center">
-    <img src="assest/4.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/4.png" width="500" alt="Statistical Target (Methanol)">
 </p>
 
 <p align="center">
-    <img src="assest/5.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/5.png" width="500" alt="Statistical Target (Methanol)">
 </p>
 
 <p align="center">
-    <img src="assest/6.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/6.png" width="500" alt="Statistical Target (Methanol)">
 </p>
 
 
@@ -759,7 +759,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0013468626005700
 
 
 <p><strong>Note:</strong> The complete Python implementation, detailed explanations, and preprocessing workflow are available in the<strong>README – 3.ML models  to optimize catalyst performance and operational parameters </strong> section of this repository.</p>
- <hr
+ <hr>
 
 
 <h2> Phase 7: Machine Learning Models for CH₄ Electrolyzer Process Optimization & Scale-Up </h2>
@@ -969,10 +969,10 @@ nonlinear parameter interactions for data-driven methanol yield optimization.
 
 <p><strong>Note:</strong> The complete Python implementation, detailed explanations, and preprocessing workflow are available in the<strong>README – 4.ML for CH4 Electolyzer Optimization and Prediction </strong> section of this repository.</p>
 
- <hr
+ <hr>
 
 
-<h2> Phase 8: Machine Learning Classification for Electrolyzer Predictive Maintenance and Failure Risk Detection </h2>
+<h3> Phase 8: Machine Learning Classification for Electrolyzer Predictive Maintenance and Failure Risk Detection </h3>
 
 <p align="center">
 <img src="assest/21.png" width="900" >
@@ -1110,7 +1110,7 @@ failure samples are required to improve early warning and critical failure predi
 </p>
 
 <p align="center">
-<img src="assest/20.webp" width="900">
+<img src="assest/20.webp" width="500">
 </p>
 
 
@@ -1155,10 +1155,10 @@ operational stress. Experimental validation is recommended before scaling from
 </p>
 
 <p><strong>Note:</strong> The complete Python implementation, detailed explanations, and preprocessing workflow are available in the<strong>README – 5.ML–Based Electrolyzer Predictive Maintenance </strong> section of this repository.</p>
- <hr
+ <hr>
 
 
-<h3> Phase 9: Automated Web Scraping Pipeline for Electrolyzer Material Price Monitoring and Database Management </h3>
+<h2> Phase 9: Automated Web Scraping Pipeline for Electrolyzer Material Price Monitoring and Database Management </h2>
 
 <p align="center">
 <a href="https://youtu.be/i90PSh_6ALE" target="_blank">
