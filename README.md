@@ -186,7 +186,7 @@
     </li>
     <li><strong> DataBase Analytics & Insights</strong>
         <ul>
-            <li>Creating the relational database (MySQL) to gather all Experimental Data </li>
+            <li>Built a relational MySQL experimental database from operating conditions, results, and product analysis.</li>
             <li>Using SQLAlchemy for connecting dataset with new data (excell, CSV etc)</li>
             <li>SQL-based performance analytics</li>
             <li>Exploratory Data Analysis (EDA)</li>
