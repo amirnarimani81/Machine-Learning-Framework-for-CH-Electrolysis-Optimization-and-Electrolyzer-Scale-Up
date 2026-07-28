@@ -1166,6 +1166,13 @@ operational stress. Experimental validation is recommended before scaling from
 </a>
 </p>
 
+
+<p align="center">
+  <a href="https://youtu.be/i90PSh_6ALE" target="_blank">
+    <img src="assets/demo_thumbnail.png" width="900" alt="Project Demo">
+  </a>
+</p>
+
 <p><strong>The Challenge:</strong> The cost and availability of key electrolyzer materials—including lithium carbonate, copper, caustic soda, and soda ash—change continuously due to market fluctuations, creating uncertainty in procurement planning and project budgeting.</p>
 
 <p><strong>The Solution:</strong> An end-to-end procurement intelligence pipeline was developed by integrating automated web scraping, SQLite database management, time-series forecasting, analytics, and email notification into a single Streamlit application.</p>
