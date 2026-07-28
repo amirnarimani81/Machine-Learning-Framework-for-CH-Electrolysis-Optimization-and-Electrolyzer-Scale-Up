@@ -368,14 +368,14 @@
 <p><strong>Note:</strong> The complete Python implementation, detailed explanations, and preprocessing workflow are available in the <strong>README – 2.Data Cleaning,ETL,  Preprosseing, EDA & Statistical Analysis</strong> section of this repository.</p>
 
 <p align="center">
-    <img src="assets/3.png" width="900" alt="EDA Analysis">
+    <img src="assest/3.png" width="900" alt="EDA Analysis">
 </p>
  <hr>
 
 <h3>Phase 2: MySQL Database Development</h3>
 
 <p align="center">
-    <img src="assets/s1.png" width="900" alt="Average Yield Results">
+    <img src="assest/s1.png" width="900" alt="Average Yield Results">
 </p>
 
 
@@ -440,7 +440,7 @@ df.head()
 </pre>
 
 <p align="center">
-    <img src="assets/S3.png" width="900" alt="Average Yield Results">
+    <img src="assest/S3.png" width="900" alt="Average Yield Results">
 </p>
 
 
@@ -452,7 +452,7 @@ df.head()
 <h3>Phase 3: Exploratory Data Analysis & Feature Engineering</h3>
 
 <p align="center">
-    <img src="assets/2.png" width="900" alt="EDA Analysis">
+    <img src="assest/2.png" width="900" alt="EDA Analysis">
 </p>
 
 <p><strong>The Problem:</strong> Hidden relationships between parameters were unknown.</p>
@@ -465,7 +465,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assets/9.png" width="900" alt="EDA Analysis">
+    <img src="assest/9.png" width="900" alt="EDA Analysis">
 </p>
 
 <p><strong>Key Finding:</strong> Pt-Co alloy catalysts showed <strong>34% higher methanol yield</strong> than pure Pt catalysts.</p>
@@ -473,7 +473,7 @@ df.head()
 <h3>Yield Efficiency by Catalyst</h3>
 
 <p align="center">
-    <img src="assets/v2.png" width="900" alt="Yield Efficiency Results">
+    <img src="assest/v2.png" width="900" alt="Yield Efficiency Results">
 </p>
 
 <p><strong>Key Finding:</strong> Pt-Co achieved <strong>25.4 µmol/mL/hr</strong> — the highest efficiency among tested catalysts.</p>
@@ -484,7 +484,7 @@ df.head()
 <p><strong>Key Finding:</strong> MX@NG achieved the highest methanol yield (~16 &micro;mol/mL), followed by Pt&ndash;Ni/TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub>, Pt&ndash;Co/TiO<sub>2</sub>, and Pt&ndash;Co/TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub>.</p>
 
 <p align="center">
-    <img src="assets/v1.png" width="900" alt="Bayesian Optimization">
+    <img src="assest/v1.png" width="900" alt="Bayesian Optimization">
 </p>
 
 <p><strong>Optimization Progress:</strong> Achieved optimal performance after 45 iterations, identifying Pt-Co at 250 mA/cm², 3.2V, 60°C as the optimal condition.</p>
@@ -499,7 +499,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assets/7.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/7.png" width="900" alt="Statistical Target (Methanol)">
 </p>
 
 
@@ -521,7 +521,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assets/ss2.png" width="900" alt="Statistical Analysis">
+    <img src="assest/ss2.png" width="900" alt="Statistical Analysis">
 </p>
 
 
@@ -540,13 +540,13 @@ df.head()
   <strong>Conclusion:</strong> Cathode loading is a significant but limited predictor; optimal catalyst performance requires considering multiple interacting parameters.</div>
 
 <p align="center">
-    <img src="assets/ss3.png" width="900" alt="Statistical Analysis">
+    <img src="assest/ss3.png" width="900" alt="Statistical Analysis">
 </p>
 
 <p><strong>Statistical Summary:</strong> Methanol yield averaged <strong>3.94 mL</strong> (SD = <strong>4.81 mL</strong>, CV = <strong>122.13%</strong>), indicating high variability across experimental conditions.</p>
 
 <p align="center">
-    <img src="assets/s1.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/s1.png" width="900" alt="Statistical Target (Methanol)">
 </p>
 
 <p><strong>Note:</strong> Complete statistical analysis, visualizations, and detailed explanations are available in the <strong>README – 2. Data Cleaning, ETL, Preprocessing, Feature Engineering, EDA & Statistical Analysis</strong> section.</p>
@@ -565,7 +565,7 @@ df.head()
 </ul>
 
 <p align="center">
-    <img src="assets/8.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/8.png" width="900" alt="Statistical Target (Methanol)">
 </p>
 
 <h3>Column Transformation Using ColumnTransformer</h3>
@@ -626,7 +626,7 @@ The final deployment pipeline uses the trained model and preprocessing workflow 
 <h3>Phase 6: Machine Learning Models for Catalyst Design & Production Predict</h3>
 
 <p align="center">
-    <img src="assets/m1.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/m1.png" width="900" alt="Statistical Target (Methanol)">
 </p>
 
 
@@ -684,13 +684,13 @@ https://www.sciencedirect.com/science/article/abs/pii/S0013468626005700
 </table>
 
 <p align="center">
-    <img src="assets/10.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/10.png" width="900" alt="Statistical Target (Methanol)">
 </p>
 
 <h3> Feature Importance Analysis</h3>
 
 <p align="center">
-    <img src="assets/11.png" width="900" alt="Feature Importance">
+    <img src="assest/11.png" width="900" alt="Feature Importance">
 </p>
 
 
@@ -702,22 +702,22 @@ https://www.sciencedirect.com/science/article/abs/pii/S0013468626005700
 <p><strong>Interpretation:</strong> An optimized methane supply improves reactant availability and mass transfer, enhancing catalytic conversion efficiency. Excessive flow rates may reduce residence time and limit conversion, whereas insufficient flow can restrict reaction kinetics.</p>
 
 <p align="center">
-    <img src="assets/4.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/4.png" width="900" alt="Statistical Target (Methanol)">
 </p>
 
 <p align="center">
-    <img src="assets/5.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/5.png" width="900" alt="Statistical Target (Methanol)">
 </p>
 
 <p align="center">
-    <img src="assets/6.png" width="900" alt="Statistical Target (Methanol)">
+    <img src="assest/6.png" width="900" alt="Statistical Target (Methanol)">
 </p>
 
 
 <p><strong>Key Finding:</strong> Methanol and ethanol yields reached their maximum at <strong>6 hours</strong> of reaction time. Longer reaction periods showed diminishing returns, indicating that ~6 hours is the optimal operating duration for efficient alcohol production.</p>
 
 <p align="center">
-    <img src="assets/v3.png" width="900" alt="Catalyst Performance Comparison">
+    <img src="assest/v3.png" width="900" alt="Catalyst Performance Comparison">
 </p>
 
 <table border="1" cellpadding="5">
@@ -762,7 +762,8 @@ https://www.sciencedirect.com/science/article/abs/pii/S0013468626005700
  <hr
 
 
-<h3> Phase 7: Machine Learning Models for CH₄ Electrolyzer Process Optimization & Scale-Up </h3>
+<h2> Phase 7: Machine Learning Models for CH₄ Electrolyzer Process Optimization & Scale-Up </h2>
+
 
 <p align="center">
     <img src="assest/1.png" width="900" alt="CH4 Electrolyzer">
@@ -887,11 +888,11 @@ Hyperparameter tuning significantly improved model generalization, with the opti
 </p>
 
 <p align="center">
-<img src="Plot/DT.png" width="900" alt="Decision Tree Hyperparameter Optimization">
+<img src="assest/DT.png" width="900" alt="Decision Tree Hyperparameter Optimization">
 </p>
 
 <p align="center">
-<img src="Plot/RF.png" width="900" alt="Random Forest Hyperparameter Optimization">
+<img src="assest/RF.png" width="900" alt="Random Forest Hyperparameter Optimization">
 </p>
 
 <p><b>Final Model Selection:</b> ✅ XGBoost - Highest test R² (0.8345), lowest test RMSE (1.4358), lowest test MAE (0.9322), best generalization capability.</p>
@@ -971,7 +972,7 @@ nonlinear parameter interactions for data-driven methanol yield optimization.
  <hr
 
 
-<h3> Phase 8: Machine Learning Classification for Electrolyzer Predictive Maintenance and Failure Risk Detection </h3>
+<h2> Phase 8: Machine Learning Classification for Electrolyzer Predictive Maintenance and Failure Risk Detection </h2>
 
 <p align="center">
 <img src="assest/21.png" width="900" >
@@ -1109,7 +1110,7 @@ failure samples are required to improve early warning and critical failure predi
 </p>
 
 <p align="center">
-<img src="assest/20.png" width="900">
+<img src="assest/20.webp" width="900">
 </p>
 
 
@@ -1160,10 +1161,9 @@ operational stress. Experimental validation is recommended before scaling from
 <h3> Phase 9: Automated Web Scraping Pipeline for Electrolyzer Material Price Monitoring and Database Management </h3>
 
 <p align="center">
-    <strong> Project Demonstration</strong><br><br>
-    <a href="https://youtu.be/i90PSh_6ALE" target="_blank" style="font-size:16px; font-weight:bold; text-decoration:none;">
-        ▶ Watch the Full End-to-End Platform Demonstration
-    </a>
+<a href="https://youtu.be/i90PSh_6ALE" target="_blank">
+<img src="https://img.youtube.com/vi/i90PSh_6ALE/maxresdefault.jpg" width="900">
+</a>
 </p>
 
 <p><strong>The Challenge:</strong> The cost and availability of key electrolyzer materials—including lithium carbonate, copper, caustic soda, and soda ash—change continuously due to market fluctuations, creating uncertainty in procurement planning and project budgeting.</p>
