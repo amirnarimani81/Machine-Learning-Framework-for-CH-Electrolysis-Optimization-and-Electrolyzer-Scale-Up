@@ -29,7 +29,7 @@
 <p>Your experimental data is scattered across:</p>
 <ul>
     <li> <strong>23 Excel spreadsheets</strong> — each with different column names</li>
-    <li> <strong>CSV files</strong> — in various formats and structures</li>
+    <li> <strong>CSV files, Sensor Data, Acquisition </strong> — in various formats and structures</li>
     <li> <strong>Electrochemical testing logs</strong> — proprietary software exports</li>
     <li> <strong>Historical lab reports</strong> — PDFs, Word docs, and handwritten notes</li>
     <li> <strong>Sensor data files</strong> — different sampling rates and formats</li>
