@@ -21,6 +21,7 @@
     <li> Performance drops unexpectedly</li>
     <li> Product selectivity shifts unpredictably</li>
     <li> Degradation appears without warning</li>
+    <li> Abnormal detection and noisy Data </li>
     <li> Results become inconsistent</li>
 </ul>
 
