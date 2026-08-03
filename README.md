@@ -30,7 +30,7 @@
 <p>Your experimental data is scattered across:</p>
 <ul>
     <li> <strong>23 Excel spreadsheets</strong> — each with different column names</li>
-    <li> <strong>CSV files, Sensor Data, Acquisition </strong> — in various formats and structures</li>
+    <li> <strong>CSV files, Sensor Data, Data Log Acquisition </strong> — in various formats and structures</li>
     <li> <strong>Electrochemical testing logs</strong> — proprietary software exports</li>
     <li> <strong>Historical lab reports</strong> — PDFs, Word docs, and handwritten notes</li>
     <li> <strong>Sensor data files</strong> — different sampling rates and formats</li>
@@ -1324,7 +1324,7 @@ operational stress. Experimental validation is recommended before scaling from
 
 <h3> Data Engineering & Experimental Data Intelligence</h3>
 <ul>
-    <li>Standardized <strong>47+ experimental parameters</strong> from fragmented Excel, CSV, and laboratory files.</li>
+    <li>Standardized <strong>47+ experimental parameters</strong> from Senor, Data Log, fragmented Excel, CSV, and laboratory files.</li>
     <li>Removed <strong>127 duplicate experiments</strong> and reduced missing data from <strong>~15% to &lt;1%</strong>.</li>
     <li>Converted <strong>12 unit systems into 3 standardized engineering units</strong>.</li>
     <li>Developed an automated ETL workflow using <strong>Python, Pandas, and SQLAlchemy</strong>.</li>
